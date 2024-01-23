@@ -1,0 +1,73 @@
+body{
+    background-color: #0A0C1B;
+    font-family: sans-serif;
+}
+
+.container{
+    margin: 2rem auto;
+    width: 70%;
+    color: #fff;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.text{
+    background-color: #1C1938;
+    /* height: 100%; */
+    padding: 3.5rem;
+    width: 40%;
+}
+
+p{
+    color: #BAB8CE;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+#ratings{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    line-height: 1.5;
+}
+
+.numbers{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#ratings div span:last-child{
+    text-transform: uppercase;
+    font-family: "Lexend Deca";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.img{
+    width: 50%;
+    height: 415px;
+    background: linear-gradient(hsla(277, 64%, 61%, 0.65), hsla(277, 64%, 61%, 0.6)), url('./image-header-desktop.jpg');
+    /* position: relative; */
+}
+
+/* img{
+    width: 100%;
+    height: 100%;
+} */
+
+/* #img-backgroundcolor{
+    width: 100%;
+    height: 100%;
+    background-color: hsla(277, 64%, 61%, 0.65);
+    position: absolute;
+    top: 0;
+} */
